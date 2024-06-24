@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+  }
+  #main {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #song {
+    width: 18.6vw;
+    background-color: rgba(0, 128, 0, 0.945);
+    border-radius: 1vw;
+    padding: 0.6vw;
+  }
+  #logo {
+    height: 40vh;
+    border-radius: 1vw;
+    width: 100%;
+    background-color: black;
+    overflow: hidden;
+  }
+  #logo img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  h3 {
+    margin: 0.6vw 0;
+  }
+  i {
+    font-size: 2.5vw;
+  }
+  #kunal {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  #icon {
+    margin: 0.3vw 0;
+    display: flex;
+    gap: 0.9vw;
+  }
+  #pause {
+    display: none;
+  }
+  
